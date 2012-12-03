@@ -11,24 +11,24 @@ Download project from github and uncompress to  protected/extensions foder.
 This extension has been designed as a widget. Its easy to use. For examples:
 Open your view for edit and define array $items. You can do this in the following way:
 
-$items = array(
-  array(
-    'name' =&gt; 'Google corp',
-    'link' =&gt; 'http://google.com',
-    'icon' =&gt; 'google',
-    'active' =&gt; 'dashboard', 
-    'sub' =&gt; array(
-      array(
-        'name' =&gt; 'Gmail',
-        'link' =&gt; 'http://gmail.com',
-      ),
-      array(
-        'name' =&gt; 'Gmap',
-        'link' =&gt; 'http://maps.google.com/',
-      )
-    )
-  )
-);
+	$items = array(
+		array(
+			'name' => 'Google corp',
+			'link' => 'http://google.com',
+			'icon' => 'google',
+			'active' => 'dashboard',
+			'sub' => array(
+				array(
+					'name' => 'Gmail',
+					'link' => 'http://gmail.com',
+				),
+				array(
+					'name' => 'Gmap',
+					'link' => 'http://maps.google.com/',
+				)
+	    	)
+	    )
+	);
 
 Array key explanation:
 -Key name - menu item
