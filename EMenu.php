@@ -1,4 +1,4 @@
-<?
+<?php
 class EMenu extends CWidget
 {
 	public $tag = 'ul';
