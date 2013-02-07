@@ -23,10 +23,11 @@ class EMenu extends CWidget
 		$menuClass = 'accordion-menu';
 		$cs = Yii::app()->clientScript;
 
-		$assets = Yii::getPathOfAlias('ext.widgets.assets');
+		$dirname = basename(dirname(__FILE__));
+		$assets = Yii::getPathOfAlias('ext.'.$dirname);
 		$assetUrl = Yii::app()->assetManager->publish($assets);
-		$css = $assetUrl . '/emenu/css/accordionmenu.css';
-		$js = $assetUrl . '/emenu/js/accordionmenu.min.js';
+		$css = $assetUrl . '/assets/css/accordionmenu.css';
+		$js = $assetUrl . '/assets/js/accordionmenu.min.js';
 
 		Yii::app()->clientScript->registerCSSFile( $css );
 		Yii::app()->clientScript->registerScriptFile( $js );
