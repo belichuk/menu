@@ -2,9 +2,9 @@ Accordion menu extension for Yii
 ------------
 This is 2 level accordeon menu for Yii 1.1.x
 
-Examples:
+Yii extension page:
 ============
-	http://belichuk.com/emenu/index.php
+	https://www.yiiframework.com/extension/accordion-menu
 
 How to install:
 ============
